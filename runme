@@ -1,0 +1,2 @@
+npm i
+PORT=8081 node `pwd`/app.js &
