@@ -2,7 +2,7 @@ var dotenv = require('dotenv').load();
 
 module.exports = {
 
-  db: process.env.MONGODB || 'mongodb://localhost:27017/aaa',
+  db: process.env.MONGODB || 'mongodb://rw:rw-2016@ds017070.mlab.com:17070/www',
 
   sessionSecret: process.env.SESSION_SECRET || 'ask-pl',
 
